@@ -16,11 +16,6 @@
 
 /* debug section */
 
-.debug .gallery{
-    height: 300px;
-    background-color: #e1d67a;
-}
-
 .debug .main-container{
     background-color: #0086ff;
 }
@@ -75,9 +70,24 @@ a:hover{
 }
 
 /* big section with photo */
-.gallery{
+.banner{
     width: 100%;
+    height: 600px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
     margin-top: 1em;
+    border-radius: 15px;
+    position: relative;
+}
+
+.description{
+    width: 600px;
+    height: 200px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%, -50%);
 }
 
 /* main section with content */
