@@ -75,19 +75,13 @@ main{
     position: relative;
 }
 
-.banner .layover{
+.banner article{
     width: 100%;
     height: 400px;
     background-color: rgba(0, 0, 0, .2);
     border-radius: 15px;
-}
-
-.description{
     color: white;
     position: absolute;
-    top: 70%;
-    left: 35%;
-    transform: translate(-50%, -50%);
 }
 /* /big section with photo */
 
